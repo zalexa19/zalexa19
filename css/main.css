@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    color: black;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+
+header {
+    width: 100%;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.aboutMeContent li, p  {
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 25px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.aboutMeContent li {
+    margin: 10px 0;
+    padding-left: 5px;
+}
+
+.aboutMeContent ul {
+    margin-left: 2em;
+
+}
+
+a {
+    color: #125D63;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #125D63;
+
+}
+
+.mainContainer a:hover {
+
+    text-decoration: underline;
+}
+
+ nav a {
+     color: #fff;
+     text-decoration: none;
+     transition: color 0.3s ease;
+ }
+
+
+
+nav a:visited  {
+
+    color:white;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    text-decoration: none;
+}
+
+
+.welcome {
+    font-family: 'Prompt', sans-serif;
+    font-weight: lighter;
+    color: white;
+    width: 100%;
+}
+
+
+
+
+#secondHeader {
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    font-size: 8em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    z-index: 3;
+}
+
+#firstHeader {
+    position: absolute;
+    width: 100%;
+    bottom: 55%;
+    font-size: 2.4em;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px #8e8e8e;
+    z-index: 3;
+    padding: 0 0 30px 10%;
+
+}
+
+
+
+
+
+
+/*********************************
+NAVIGATION
+**********************************/
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+}
+
+ul {
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #a1bdc1;
+
+
+
+}
+
+nav li {
+    display: inline-block;
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0 5%;
+
+}
+
+
+
+
+
+/*********************************
+MIDDLE
+**********************************/
+
+
+
+
+.headerContainer {
+
+
+    height: 100vh;
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 60%), /* Chrome10-25,Safari5.1-6 */
+                url('../img/PinkFlower.jpeg') no-repeat center;
+    background-size: cover;
+    object-fit: fill;
+    width: 100%;
+    z-index: 2;
+
+ }
+
+
+
+.mainContainer {
+    width: 100%;
+    text-align: left ;
+    margin: 50px auto;
+    padding: 0;
+
+
+}
+
+.contentHeader {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2em;
+}
+
+.profile-Photo {
+    display:block;
+    width: 350px;
+    margin: 20px auto 20px;
+    box-shadow: 5px 10px 15px #222;
+    -webkit-border-radius: 100%;
+
+}
+
+
+
+
+.aboutMe {
+    position: block;
+}
+
+.aboutMeContent {
+    color: #222222;
+    text-align: left;
+    padding: auto;
+    margin: auto;
+
+}
+
+.aboutMeContent li {
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+.breakContainer {
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%),
+    -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%),
+    -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%),
+    -webkit-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%),
+        /* Chrome10-25,Safari5.1-6 */
+    url('../img/middle.jpeg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+
+}
+
+
+
+.button {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 36px;
+    margin: 50px auto;
+    border-radius: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    max-width: 55%;
+
+
+
+}
+
+.button a {
+    color: white;
+
+}
+
+
+/*********************************
+FOOTER
+**********************************/
+
+footer {
+    width: 100%;
+}
+
+
+.grayContainer{
+    display: block;
+    height:50px;
+    background-color: #CCCCCC;
+    width: 100%;
+    margin:0;
+    padding: 0;
+
+
+
+}
+
+.blackContainer {
+    display: block;
+    height:120px;
+    background-color: black;
+    color: white;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    line-height:120px;
+
+
+
+}
+
+.socialMedia {
+    display: inline-block;
+    padding: 0 5px;
+
+
+
+}
+
+.socialMedia img {
+    width: 100%;
+
+}
+
+
+
+.icons {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+

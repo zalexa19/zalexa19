@@ -1,0 +1,271 @@
+/********************
+IPHONES
+********************/
+
+
+@media screen and  (min-width: 319px)
+and (max-width: 667px )
+{
+
+    /*Navigator sorcery*/
+    .burger-nav {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(../img/burger.png) no-repeat 2% center;
+        cursor: pointer;
+        background-color: #a1bdc1;
+
+    }
+
+    header nav ul {
+        overflow: hidden;
+        background-color: #adcbcf;
+
+        height :0;
+        margin: 0;
+    }
+
+    header nav ul.open {
+        height: auto;
+
+    }
+
+
+    header nav ul li {
+        float:none;
+        font-size: 0.9em;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    header nav ul li a {
+        padding: 10px;
+        border-bottom: 1px solid #f2efef;
+        display: block;
+        margin: 0;
+    }
+
+    /*Content*/
+
+
+    .mainContainer {
+        width: 100%;
+        text-align: left;
+
+    }
+
+
+    #firstHeader {
+        bottom: 20%;
+    }
+
+    #secondHeader {
+        font-size: 5em;
+        bottom: 10%;
+    }
+
+    .profile-Photo {
+        width: 240px;
+    }
+
+    .aboutMeContent li, p {
+        font-size: 0.89;
+    }
+
+    .button {
+        font-size: 1.1;
+    }
+
+    .socialMedia {
+        max-width: 60px;
+
+    }
+}
+
+
+/**********************************************/
+
+@media screen and  (min-width: 480px){
+
+
+
+    /*NAVIGATION*/
+
+    nav {
+        background-color: #a1bdc1;
+
+    }
+
+
+    nav li {
+        font-size: 1.2em;
+        padding: 10px 10px;
+
+    }
+
+    /*HEADER*/
+
+    .aboutMeContent li, p{
+        font-size: 1.15em;
+    }
+
+    .aboutMeContent ul {
+        margin-left: 0;
+    }
+
+
+    #secondHeader {
+        font-size: 4.5em;
+        padding-right:6%;
+        bottom :35%;
+    }
+
+    #firstHeader {
+        bottom: 45%;
+        font-size: 2.5em;
+        padding: 0 0 0 8%;
+
+    }
+
+    /*MAIN BODY*/
+
+    .mainContainer {
+        padding: 0;
+    }
+
+    .contentHeader {
+        margin: 30px 0;
+        font-size: 1.85em;
+
+    }
+
+    .profile-Photo {
+        width: 270px;
+        box-shadow: 5px 10px 15px #222;
+        -webkit-border-radius: 100%;
+
+    }
+
+
+    .aboutMeContent li {
+        text-align: left;
+        margin-left: 15%;
+
+    }
+
+
+    .button {
+        border-radius: 20px;
+        font-size: 1.2em;
+
+    }
+
+
+
+    /*********************************
+    FOOTER
+    **********************************/
+
+    footer {
+        width: 100%;
+    }
+
+
+    .grayContainer{
+        height:30px;
+
+    }
+
+    .blackContainer {
+        height:70px;
+        line-height:70px;
+    }
+
+    .socialMedia {
+        padding: 0 5px;
+        max-width: 80px;
+
+
+    }
+
+
+}
+
+@media screen and  (min-width: 600px) {
+    nav li {
+        font-size: 1.4em;
+    }
+
+    #firstHeader {
+        font-size: 3em;
+    }
+
+    #secondHeader {
+        font-size: 5em;
+        bottom: 30%;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 750px) {
+
+    .mainContainer {
+        width: 85%;
+
+    }
+
+
+    nav ul {
+        margin: 0;
+    }
+
+
+
+    nav a:hover {
+        text-shadow: #292929 5px 5px 5px;
+    }
+
+
+
+
+    .button {
+        max-width: 20%;
+    }
+
+    .aboutMeContent li, p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aboutMeContent ul {
+        margin-left: -40px;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .mainContainer {
+        width: 50%;
+    }
+
+
+    .center {
+        text-align: center;
+    }
+
+    .breakContainer {
+        margin: 20px;
+    }
+
+    .contactme img {
+        max-: 90%;
+
+    }
+}
