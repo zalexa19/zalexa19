@@ -237,9 +237,9 @@ and (max-width: 667px )
 
 
 
-    .button {
-        /*max-width: 40%;*/
-    }
+    /*.button {
+        max-width: 40%;
+    }*/
 
     .aboutMeContent li, p {
         padding-left: 0;
@@ -249,7 +249,6 @@ and (max-width: 667px )
     .aboutMeContent ul {
         margin-left: -40px;
     }
-
 }
 
 
@@ -269,7 +268,7 @@ and (max-width: 667px )
     }
 
     .contactme img {
-        max-: 90%;
+        max-width: : 90%;
 
     }
 }
