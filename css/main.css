@@ -243,7 +243,8 @@ MIDDLE
     border-radius: 20px;
     font-size: 1.2em;
     cursor: pointer;
-    max-width: 55%;
+    max-width: 100%;
+    width: 300;
 
 
 
@@ -313,4 +314,3 @@ footer {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 
 }
-

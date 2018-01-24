@@ -208,6 +208,10 @@ and (max-width: 667px )
     }
 
 
+    .button {
+        max-width: 100%;
+    }
+
 
 }
 
@@ -234,7 +238,7 @@ and (max-width: 667px )
 
 
     .button {
-        max-width: 20%;
+        /*max-width: 40%;*/
     }
 
     .aboutMeContent li, p {
@@ -252,7 +256,7 @@ and (max-width: 667px )
 @media screen and (min-width: 1000px) {
 
     .mainContainer {
-        width: 50%;
+        width: 70%;
     }
 
 

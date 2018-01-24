@@ -1,0 +1,389 @@
+
+/*
+@media screen and (min-width: 600px){
+
+/*********************************
+
+NAVIGATION
+**********************************/
+
+
+    nav ul {
+        margin: 0;
+        padding:0;
+
+
+    }
+
+    nav li {
+        font-size: 1em;
+        padding: 0 2px;
+        margin: 15px 2px;
+
+    }
+
+    /*********************************
+    HEADER
+    **********************************/
+
+    p, li {
+        font-size: 1em;
+        letter-spacing: 3px;
+        line-height: 1.3em;
+        margin: 40px auto;
+
+
+    }
+
+    li {
+        margin: 15px;
+    }
+
+
+    #secondHeader {
+        font-size: 5em;
+        padding-right:6%;
+        top: 58%;
+    }
+
+    #firstHeader {
+        top: 50%;
+        font-size: 1.625em;
+        padding: 0 0 0 8%;
+
+    }
+
+
+
+
+
+
+    /*********************************
+    MAIN BODY
+
+    **********************************/
+
+    .mainContainer {
+        margin: 40px 0;
+
+
+    }
+
+    .contentHeader {
+        font-size: 1.8em;
+
+    }
+
+    .profile-Photo {
+        display:block;
+        width: 300px;
+        margin: 20px auto 20px;
+        box-shadow: 5px 10px 15px #222;
+        -webkit-border-radius: 100%;
+
+    }
+
+
+    .aboutMeContent {
+        padding: 0;
+
+    }
+
+
+    .button {
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+        margin: 50px 20%;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+    /*********************************
+    FOOTER
+    **********************************/
+    footer {
+        width: 100%;
+    }
+
+
+    .grayContainer{
+        height:30px;
+
+    }
+
+    .blackContainer {
+        height:80px;
+        line-height:80px;
+
+
+
+    }
+
+    .socialMedia {
+        padding: 0 5px;
+        max-width: 80px;
+
+    }
+}
+
+
+@media screen and (min-width: 600px){
+
+
+
+/*********************************
+
+NAVIGATION
+**********************************/
+
+
+    nav li {
+        font-size: 1.258em;
+        padding: 0 4px;
+        margin: 15px 5px;
+
+    }
+
+    /*********************************
+    HEADER
+    **********************************/
+
+    p, li {
+        font-size: 1em;
+        letter-spacing: 3px;
+        line-height: 1.3em;
+        margin: 40px auto;
+
+
+    }
+
+    li {
+        margin: 15px;
+    }
+
+
+    #secondHeader {
+        font-size: 5em;
+        padding-right:6%;
+        top: 60%;
+    }
+
+    #firstHeader {
+        font-size: 1.7em;
+    }
+
+
+
+    /*********************************
+    MAIN BODY
+
+    **********************************/
+
+    .mainContainer {
+        margin: 40px auto;
+    }
+
+    .contentHeader {
+        font-size: 1.8em;
+
+    }
+
+    .profile-Photo {
+        width: 250px;
+        margin: 20px auto 20px;
+        box-shadow: 5px 10px 15px #222;
+        -webkit-border-radius: 100%;
+
+    }
+
+    .aboutMeContent {
+        width: 90%;
+    }
+
+
+    .button {
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+        margin: 50px 30%;
+        border-radius: 20px;
+        font-size: 24px;
+    }
+
+    /*********************************
+    FOOTER
+    **********************************/
+    footer {
+        width: 100%;
+    }
+
+
+    .grayContainer{
+        display: block;
+        height:30px;
+        background-color: #CCCCCC;
+        width: 100%;
+        margin:0;
+        padding: 0;
+
+
+
+    }
+
+    .blackContainer {
+        display: block;
+        background-color: black;
+        color: white;
+        margin:0;
+        padding: 0;
+        text-align: center;
+        height:80px;
+        line-height:80px;
+
+
+
+    }
+
+    .socialMedia {
+        display: inline-block;
+        padding: 0 5px;
+        max-width: 80px;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Larger pads */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+/* Really large screens */
+@media only screen and (min-width: 1382px) {
+
+    /*********************************
+
+NAVIGATION
+**********************************/
+
+    nav li {
+        font-size: 1em;
+        margin: 15px 20px;
+
+    }
+
+    /*********************************
+    HEADER
+    **********************************/
+
+    p, li {
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height: 1.3em;
+        margin: 40px auto;
+
+
+    }
+
+    li {
+        margin: 15px;
+    }
+
+
+    #secondHeader {
+        font-size: 5em;
+        padding-right:6%;
+        top: 58%;
+    }
+
+    #firstHeader {
+        top: 50%;
+        font-size: 1.625em;
+        padding: 0 0 0 8%;
+
+    }
+
+
+
+
+
+
+    /*********************************
+    MAIN BODY
+
+    **********************************/
+
+    .mainContainer {
+        margin: 40px 0;
+
+
+    }
+
+    .contentHeader {
+        font-size: 1.8em;
+
+    }
+
+    .profile-Photo {
+        display:block;
+        width: 300px;
+        margin: 20px auto 20px;
+        box-shadow: 5px 10px 15px #222;
+        -webkit-border-radius: 100%;
+
+    }
+
+
+    .aboutMeContent {
+        padding: 0;
+
+    }
+
+
+    .button {
+        background-color: black;
+        color: white;
+        padding: 20px 0;
+        margin: 50px 20%;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+    /*********************************
+    FOOTER
+    **********************************/
+    footer {
+        width: 100%;
+    }
+
+
+    .grayContainer{
+        height:30px;
+
+    }
+
+    .blackContainer {
+        height:80px;
+        line-height:80px;
+
+
+
+    }
+
+    .socialMedia {
+        padding: 0 5px;
+        max-width: 80px;
+
+    }
+}
+
+
+
+}
+
